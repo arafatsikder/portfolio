@@ -1,0 +1,72 @@
+.background {
+    background-color: #22252C;
+
+}
+
+.skills {
+    padding: 5% 20%;
+    
+}
+.space{
+    padding-bottom: 10%;
+}
+
+.head {
+    background-image: linear-gradient(to right, #00F29B, #07F7F0);
+    /* Define the gradient */
+    -webkit-background-clip: text;
+    /* Apply background clip to text */
+    background-clip: text;
+    /* Apply background clip to text */
+    color: transparent;
+    padding-bottom: 10%;
+}
+
+.skill {
+    margin-bottom: 10px;
+    
+}
+
+.skill-bar {
+    background-color: black;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.skill-level {
+    background-color: #00D7BB;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    transition: width 0.5s ease;
+    /* Add transition for smooth animation */
+}
+
+.skill-div {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    grid-column-gap: 150px;
+    
+}
+
+.skill-align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+}
+
+.javascript {
+    width: 70%;
+}

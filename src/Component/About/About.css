@@ -1,0 +1,79 @@
+.background {
+    background-color: #22252C;
+    margin: 0%;
+    padding: 0%;
+}
+
+.about {
+    display: flex;
+    padding: 10% 20%;
+    color: white
+}
+
+
+
+.left {
+    width: 50%;
+    padding: 2%;
+
+}
+
+.right {
+    width: 50%;
+    padding: 2%;
+    margin-top: -5%;
+}
+
+.containar {
+    display: flex;
+    align-items: center;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to right, #00F29B, #07F7F0); /* Define the gradient */
+    -webkit-background-clip: text; /* Apply background clip to text */
+    background-clip: text; /* Apply background clip to text */
+    color: transparent; /* Set text color to transparent */
+  }
+
+.span-color{
+    color: #00D7BB;
+}
+
+.imageContainer {
+    /* margin-right: 10px;
+    padding: 5px;
+    border: 1px 1px 0px 0px;   
+    border-right: 5px solid #00D7BB;
+    border-top: 5px solid #00D7BB;
+    border-right-width: 40%; */
+    z-index: 1;
+    
+    
+}
+
+.drop{
+    height: 330px;
+    width:600px;
+    /* background-color: blueviolet; */
+    border: 5px solid #00D7BB;
+    margin-left: -85%;
+    margin-top: -15%;
+    z-index: 0;
+}
+
+/* .border {
+    height: 350px;
+    width: 2px; 
+    border: 1px solid salm;
+    background-color: rgb(222, 195, 195);
+} */
+
+.top-border{
+    height: 2px;
+    width: 500px; 
+    border: 1px solid salm;
+    background-color: rgb(222, 195, 195);
+    margin-left: 4%;
+    position:relative
+}

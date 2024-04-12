@@ -28,7 +28,7 @@ const NavHeader = () => {
         <div className="header">
             <div className="navigation">
                 <div className="">
-                    <div className="flex justify-between py-8 margin">
+                    <div className="lg:flex justify-between py-8 margin sm:flex menu">
                         <div>
                             <ul className="flex fixed">
                                 {routes.map(route => <Link key={route.id} route={route}></Link>)}
@@ -60,7 +60,7 @@ const NavHeader = () => {
 
                 <div className=" my-10 margin welcome">
                     <p><span className="text-9xl font-thin">Hello!</span><br />
-                        <div className="py-6">
+                        <div className="py-3">
                             <span className="text-8xl font-normal">I'm </span> <span className="text-8xl font-medium">Arafat Sikder</span>
                         </div>
                     </p>

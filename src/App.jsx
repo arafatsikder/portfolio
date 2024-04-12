@@ -1,6 +1,6 @@
-import './App.css'
 import About from './Component/About/About'
 import NavHeader from './Component/NavHeader/NavHeader'
+import Skills from './../src/Component/Skills/Skills'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <>
       <NavHeader></NavHeader>
       <About></About>
+      <Skills></Skills>
     </>
   )
 }
