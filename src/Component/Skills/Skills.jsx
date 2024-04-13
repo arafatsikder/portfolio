@@ -2,8 +2,9 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div className='background'>
+            <h1 className='text-5xl font-bold text-center space'><span className='head'>SKILLS</span></h1>
             <div className='skills'>
-                <h1 className='text-5xl font-bold text-center space'><span className='head'>SKILLS</span></h1>
+                
                 <div className='skill-div'>
                     <div className="skill">
                         <div className="skill-align">

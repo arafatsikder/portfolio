@@ -1,0 +1,15 @@
+.work{
+    background-color: #22252C;
+    padding: 5%;
+    
+}
+
+.head {
+    background-image: linear-gradient(to right, #00F29B, #07F7F0);
+    /* Define the gradient */
+    -webkit-background-clip: text;
+    /* Apply background clip to text */
+    background-clip: text;
+    /* Apply background clip to text */
+    color: transparent;
+}

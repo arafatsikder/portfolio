@@ -6,7 +6,7 @@ const About = () => {
             <div className='about'>
                 <div className='left'>
                     <div className="containar">
-                        <div className="imageContainer">
+                        <div className="imageContainer z-0">
                             <img src="./../../../src/image/image.jpg" height="600px" width="600px" alt="Your Image" />
                         </div>
                         <div className="drop"></div>
