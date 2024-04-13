@@ -1,3 +1,24 @@
 .hire{
-    background-color: #22252C;
+    background-color: #02CFB4;
+}
+
+.space{
+    padding: 3% 22%;
+}
+
+.check{
+    color:#25292F;
+}
+
+.hire-btn{
+    background-color: #25292F;
+    color:  #02CFB4;
+    /* padding: 3% 15%; */
+}
+
+
+.hire-btn:hover{
+    background-color:#02CFB4;
+    color: #25292F;
+    border: 1px solid #25292F;
 }

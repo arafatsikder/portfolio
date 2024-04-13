@@ -30,7 +30,7 @@ const Skills = () => {
                             <div>70%</div>
                         </div>
                         <div className="skill-bar">
-                            <div className="skill-level javascript">70%</div>
+                            <div className="skill-level javascript">.</div>
                         </div>
                     </div>
                     <div className="skill">
@@ -57,7 +57,7 @@ const Skills = () => {
                             <div>70%</div>
                         </div>
                         <div className="skill-bar">
-                            <div className="skill-level javascript">70%</div>
+                            <div className="skill-level javascript">.</div>
                         </div>
                     </div>
                 </div>

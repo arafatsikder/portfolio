@@ -21,12 +21,14 @@
 .right {
     width: 50%;
     padding: 2%;
-    margin-top: -5%;
+    margin-top: 0%;
 }
 
 .containar {
     display: flex;
     align-items: center;
+    /* position: relative; */
+    margin-left: 20px;
 }
 
 .gradient-text {
@@ -48,18 +50,23 @@
     border-top: 5px solid #00D7BB;
     border-right-width: 40%; */
     /* z-index: 1; */
+    margin-left: -83%;
+    margin-bottom: -15%;
     
     
 }
 
 .drop{
-    height: 330px;
-    width:600px;
-    /* background-color: blueviolet; */
+    height: 250px;
+    width:400px;
     border: 5px solid #00D7BB;
-    margin-left: -85%;
-    margin-top: -15%;
+    margin-left: 0%;
+    margin-top: 0%;
+    /* margin-left: -85%;
+    margin-top: -15%; */
+    /* position: absolute; */
     /* z-index: 0; */
+    z-index: ;
 }
 
 /* .border {

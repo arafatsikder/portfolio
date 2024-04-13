@@ -30,7 +30,7 @@ const NavHeader = () => {
                 <div className="">
                     <div className="lg:flex justify-between py-8 margin sm:flex menu">
                         <div>
-                            <ul className="flex fixed">
+                            <ul className="flex fixed z-1">
                                 {routes.map(route => <Link key={route.id} route={route}></Link>)}
                             </ul>
                         </div>
