@@ -40,7 +40,7 @@ const Nav = () => {
 
     return (
         <div className='full'>
-            <nav className ={` fixed w-full navbar transition duration-1000 ease-in-out ${scrolled ? 'color pt-4 shadow-lg' : 'non-color pt-8'}`}>
+            <nav className ={` fixed w-full navbar transition duration-1000 ease-in-out ${scrolled ? 'color pt-2 shadow-lg' : 'non-color pt-6'}`}>
                 <div className='full-nave'>
                     <div>
                         <ul className="flex">
