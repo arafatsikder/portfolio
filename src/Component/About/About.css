@@ -24,12 +24,59 @@
     margin-top: 0%;
 }
 
-.containar {
+
+.group-container {
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .div1 {
+    width: 400px;
+    height: 320px;
+    border: 2px solid yellowgreen;
+
+  }
+  
+  .div2 {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 400px;
+    height: 320px;
+  }
+
+/* .containar {
+    
     display: flex;
     align-items: center;
-    /* position: relative; */
-    margin-left: 20px;
+    margin-left: 20px; 
 }
+
+.imageContainer {
+   
+    margin-left: -83%;
+    margin-bottom: -15%;
+    z-index: ;
+    
+    
+    
+}
+
+.drop{
+
+    height: 250px;
+    width:400px;
+    border: 5px solid #00D7BB;
+    margin-left: 0%;
+    margin-top: 0%;
+    
+    z-index: ;
+} */
 
 .gradient-text {
     background-image: linear-gradient(to right, #00F29B, #07F7F0); /* Define the gradient */
@@ -42,32 +89,7 @@
     color: #00D7BB;
 }
 
-.imageContainer {
-    /* margin-right: 10px;
-    padding: 5px;
-    border: 1px 1px 0px 0px;   
-    border-right: 5px solid #00D7BB;
-    border-top: 5px solid #00D7BB;
-    border-right-width: 40%; */
-    /* z-index: 1; */
-    margin-left: -83%;
-    margin-bottom: -15%;
-    
-    
-}
 
-.drop{
-    height: 250px;
-    width:400px;
-    border: 5px solid #00D7BB;
-    margin-left: 0%;
-    margin-top: 0%;
-    /* margin-left: -85%;
-    margin-top: -15%; */
-    /* position: absolute; */
-    /* z-index: 0; */
-    z-index: ;
-}
 
 /* .border {
     height: 350px;
@@ -82,5 +104,5 @@
     border: 1px solid salm;
     background-color: rgb(222, 195, 195);
     margin-left: 4%;
-    position:relative
+    /* position:relative */
 }

@@ -5,11 +5,10 @@ const About = () => {
         <div className='background'>
             <div className='about'>
                 <div className='left'>
-                    <div className="containar">
-
-                        <div className="drop"></div>
-                        <div className="imageContainer">
-                            <img src="./../../../src/image/image.jpg" height="600px" width="400px" alt="Your Image" />
+                    <div className="group-container">
+                        <div className="container">
+                            <div className="div1"></div>
+                            <div className="div2"><img src="./../../../src/image/image3.jpg" alt="" /></div>
                         </div>
                     </div>
                 </div>

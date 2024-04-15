@@ -1,0 +1,25 @@
+.group-container {
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .div1 {
+    width: 400px;
+    height: 320px;
+    border: 2px solid yellowgreen;
+
+  }
+  
+  .div2 {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 400px;
+    height: 320px;
+  }
+  
