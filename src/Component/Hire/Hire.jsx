@@ -5,9 +5,9 @@ const Hire = () => {
         <div className='hire'>
             <div className='space'>
                 <div className=' text-center flex justify-around'>
-                    <div>
+                    {/* <div> */}
                         <span className='text-7xl check'><BiLogoTelegram /></span>
-                    </div>
+                    {/* </div> */}
                     <div>
                         <p className='flex text-4xl font-bold check tracking-wide pt-2 text-center'>HIRE ME FOR YOUR AWESOME PROJECT</p>
                         <div className=' check'>

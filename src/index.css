@@ -8,22 +8,18 @@
     /* Set the background color of the scrollbar */
 }
 
-::-webkit-scrollbar {
-    background-color: #191919;
-    /* Set the background color of the scrollbar */
-}
 
 
 
 ::-webkit-scrollbar-thumb {
-    background-color: #c2f204;
+    background-color: #363635;
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #e31616;
+    background-color: #302d2d;
 }
-
+/* #151821 */
 /* For Firefox */
 /* Note: Firefox doesn't support customizing scrollbar colors directly, so this will only affect the scrollbar width */
 /* For more advanced styling in Firefox, you may need to use JavaScript or a third-party library */
@@ -31,9 +27,12 @@
     scrollbar-width: thin;
     scrollbar-color: #00D7BB transparent;
     /* thumb color, track color */
-    scrollbar-background-color: black;
 }
 
 *::-moz-scrollbar {
     width: 12px;
 }
+
+::-webkit-scrollbar-track {
+    background-color: #8b1a1a; /* Set the background color of the scrollbar track */
+  }

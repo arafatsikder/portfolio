@@ -35,7 +35,7 @@ const Skills = () => {
                     </div>
                     <div className="skill">
                         <div className="skill-align">
-                            <div className='text-xl'>HTML5</div>
+                            <div className='text-xl'>BOOTSTRAP</div>
                             <div>90%</div>
                         </div>
                         <div className="skill-bar ">
@@ -44,7 +44,7 @@ const Skills = () => {
                     </div>
                     <div className="skill">
                         <div className="skill-align">
-                            <div className='text-xl'>CSS</div>
+                            <div className='text-xl'>TAILWIND</div>
                             <div>80%</div>
                         </div>
                         <div className="skill-bar">
@@ -53,7 +53,7 @@ const Skills = () => {
                     </div>
                     <div className="skill">
                         <div className="skill-align">
-                            <div className='text-xl'>JS</div>
+                            <div className='text-xl'>REACT</div>
                             <div>70%</div>
                         </div>
                         <div className="skill-bar">
