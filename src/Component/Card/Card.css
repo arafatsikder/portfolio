@@ -13,7 +13,7 @@
 .div-1{
     background-color: #313741;
     height: 350px;
-    
+    width: 33.33%;
 }
 
 .div1-style{
@@ -26,11 +26,26 @@
 
 .div-2{
     background-color: #05C7AE;
-    height: 400px;
-    margin-top: -20px;
+    height: 380px;
+    margin-top: -17px;
+    width: 33.33%;
+}
+
+.color2{
+    color:#07463E
+}
+
+.div2-style{
+    margin: 5% 4%;
 }
 
 .div-3{
     background-color: #313741;
     height: 350px;
+    width: 33.33%;
+}
+
+
+.div3-style{
+    margin: 5% 4%;
 }
