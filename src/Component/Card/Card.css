@@ -1,0 +1,36 @@
+.card{
+    background-color: #22252C;
+    padding: 6% 0%;
+}
+
+.all-cards{
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 0% 22%;
+}
+
+.div-1{
+    background-color: #313741;
+    height: 350px;
+    
+}
+
+.div1-style{
+    margin: 5% 4%;
+}
+
+.h-color{
+    color:#05C7AE;
+}
+
+.div-2{
+    background-color: #05C7AE;
+    height: 400px;
+    margin-top: -20px;
+}
+
+.div-3{
+    background-color: #313741;
+    height: 350px;
+}

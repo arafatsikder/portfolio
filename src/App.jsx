@@ -1,8 +1,9 @@
 import About from './Component/About/About'
 import NavHeader from './Component/NavHeader/NavHeader'
 import Skills from './../src/Component/Skills/Skills'
-import MyWork from './Component/MyWork/MyWork'
+// import MyWork from './Component/MyWork/MyWork'
 import Hire from './Component/Hire/Hire'
+import Card from './Component/Card/Card'
 // import Show from './Component/Show/Show'
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       </div>
       <About></About>
       <Skills></Skills>
-      <MyWork></MyWork>
+      <Card></Card>
+      {/* <MyWork></MyWork> */}
       <Hire></Hire>
       {/* <Show></Show> */}
 

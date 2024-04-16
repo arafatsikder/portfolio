@@ -14,16 +14,18 @@
     color: white
 }
 
-.cv-btn{
+.cv-btn {
     margin-top: 440px;
     margin-left: 65px;
-    background-image: linear-gradient(to left,rgba(42, 224, 216, 0.9), rgba(68, 190, 122, 0.9)), url("/src/image/image.jpg");
+    background-image: linear-gradient(to left, rgba(42, 224, 216, 0.9), rgba(68, 190, 122, 0.9)), url("/src/image/image.jpg");
     padding: 15px 30px;
 }
 
 .left {
     width: 50%;
     padding: 2%;
+    margin-top: 10px;
+    
 
 }
 
@@ -38,29 +40,30 @@
 
 .group-container {
     position: relative;
-  }
-  
-  .container {
+}
+
+.container {
     position: absolute;
     top: 0px;
     left: 10px;
-  }
-  
-  .div1 {
+}
+
+.div1 {
     width: 350px;
     height: 350px;
+    
     border: 8px solid #00D7BB;
 
-  }
-  
-  .div2 {
+}
+
+.div2 {
     position: absolute;
-    top:30px;
+    top: 30px;
     bottom: 0px;
     left: -30px;
     width: 400px;
     height: 320px;
-  }
+}
 
 /* .containar {
     
@@ -91,13 +94,17 @@
 } */
 
 .gradient-text {
-    background-image: linear-gradient(to right, #00F29B, #07F7F0); /* Define the gradient */
-    -webkit-background-clip: text; /* Apply background clip to text */
-    background-clip: text; /* Apply background clip to text */
-    color: transparent; /* Set text color to transparent */
-  }
+    background-image: linear-gradient(to right, #00F29B, #07F7F0);
+    /* Define the gradient */
+    -webkit-background-clip: text;
+    /* Apply background clip to text */
+    background-clip: text;
+    /* Apply background clip to text */
+    color: transparent;
+    /* Set text color to transparent */
+}
 
-.span-color{
+.span-color {
     color: #00D7BB;
 }
 
@@ -110,9 +117,9 @@
     background-color: rgb(222, 195, 195);
 } */
 
-.top-border{
+.top-border {
     height: 2px;
-    width: 500px; 
+    width: 500px;
     border: 1px solid salm;
     background-color: rgb(222, 195, 195);
     margin-left: 4%;
