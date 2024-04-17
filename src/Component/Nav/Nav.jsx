@@ -6,11 +6,11 @@ import { useState, useEffect } from "react";
 // import { RiMenu3Fill } from "react-icons/ri";
 const Nav = () => {
     const routes = [
-        { id: 1, path: '/', name: <FaFacebook /> },
+        { id: 1, path: 'https://www.facebook.com/profile.php?id=100005150418529', name: <FaFacebook /> },
         { id: 2, path: '/about', name: <FaTwitter /> },
-        { id: 3, path: '/services', name: <FaLinkedinIn /> },
-        { id: 4, path: '/contact', name: <FaDiscord /> },
-        { id: 5, path: '/github', name: <FaGithub /> },
+        { id: 3, path: 'https://www.linkedin.com/in/arafat-sikder-45247020a/', name: <FaLinkedinIn /> },
+        { id: 4, path: ' https://discord.com/channels/arafat3202', name: <FaDiscord /> },
+        { id: 5, path: 'https://github.com/arafatsikder', name: <FaGithub /> },
     ];
 
     const [nav, setNav] = useState(false);

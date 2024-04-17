@@ -15,7 +15,7 @@ const Hire = () => {
                         </div>
                     </div>
                     <div>
-                        <button className='hire-btn px-16 py-3 font-semibold text-xl'>HIRE ME</button>
+                        <button className='hire-btn px-16 py-3 font-semibold text-xl'><a href="https://www.linkedin.com/in/arafat-sikder-45247020a/">HIRE ME</a></button>
                     </div>
                 </div>
                 

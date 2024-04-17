@@ -4,6 +4,7 @@ import Skills from './../src/Component/Skills/Skills'
 // import MyWork from './Component/MyWork/MyWork'
 import Hire from './Component/Hire/Hire'
 import Card from './Component/Card/Card'
+import Footer from './Component/Footer/Footer'
 // import Show from './Component/Show/Show'
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       {/* <MyWork></MyWork> */}
       <Hire></Hire>
       {/* <Show></Show> */}
+      <Footer></Footer>
 
     </>
   )

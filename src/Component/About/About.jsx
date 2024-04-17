@@ -1,5 +1,5 @@
 import './About.css'
-import { FaFileDownload } from "react-icons/fa"
+// import { FaFileDownload } from "react-icons/fa"
 const About = () => {
 
     return (
@@ -9,7 +9,7 @@ const About = () => {
                     <div className="group-container">
                         <div className="container">
                             <div className="div1"></div>
-                            <div className="div2"><img src="./../../../src/image/arafat2.png" height="350px" width="350px" alt="" /></div>
+                            <div className="div2"><img src="https://i.ibb.co/MMLhvw2/arafat2.png" height="350px" width="350px" alt="" /></div>
                         </div>
 
                     </div>
