@@ -16,17 +16,18 @@ const About = () => {
                     {/* <span><FaFileDownload /></span> */}
 
                     <a href="https://pink-vina-20.tiiny.site/">
-                        <button className='cv-btn show'>
+                        <button className='cv-btn'>
                             Download Resume
                             
                         </button>
                     </a>
-
-
                 </div>
+
+
+
                 <div className='right'>
                     <div>
-                        <h1 className='text-5xl font-bold gradient-text'>ABOUT ME</h1>
+                        <h1 className='about-text text-5xl font-bold gradient-text'>ABOUT ME</h1>
                         <p className='py-6'>Hello! I’m Arafat Sikder. A front-end web developer. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, Bootstrap, Tailwind. Having basic expertise in Problem Solving.As a front-end web developer and competitive programmer, I aim to design a stable, user-friendly, and beautiful website.My expertise    will benefit your company’s front-end development.</p>
                         <p className='text-xl py-2'><span className='span-color font-medium font-bold'>NAME:</span> Arafat Sikder </p>
                         <p className='text-xl py-2'><span className='span-color font-medium font-bold'>DATE OF BIRTH:</span> 5 december 1998</p>
