@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                     {/* <span><FaFileDownload /></span> */}
 
-                    <a href="./../../../src/File/CV.pdf">
+                    <a href="https://pink-vina-20.tiiny.site/">
                         <button className='cv-btn show'>
                             Download Resume
                             

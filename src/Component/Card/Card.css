@@ -1,6 +1,6 @@
 .card{
     background-color: #22252C;
-    padding: 6% 0%;
+    padding: 10% 0%;
 }
 
 .all-cards{
@@ -12,7 +12,7 @@
 
 .div-1{
     background-color: #313741;
-    height: 350px;
+    height: 30%;
     width: 33.33%;
 }
 
@@ -26,8 +26,8 @@
 
 .div-2{
     background-color: #05C7AE;
-    height: 380px;
-    margin-top: -17px;
+    height: 35%;
+    margin-top: -1%;
     width: 33.33%;
 }
 
@@ -41,11 +41,15 @@
 
 .div-3{
     background-color: #313741;
-    height: 350px;
+    height: 30%;
     width: 33.33%;
 }
 
 
 .div3-style{
     margin: 5% 4%;
+}
+
+.space{
+    padding: 6% 5% 15% 5%;
 }

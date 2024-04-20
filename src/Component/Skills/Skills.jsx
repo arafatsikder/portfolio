@@ -2,7 +2,7 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div className='background'>
-            <h1 className='text-5xl font-bold text-center space'><span className='head'>SKILLS</span></h1>
+            <h1 className='text-5xl font-bold text-center spaceb'><span className='head'>SKILLS</span></h1>
             <div className='skills'>
                 
                 <div className='skill-div'>
