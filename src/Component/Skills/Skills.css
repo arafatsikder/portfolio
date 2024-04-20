@@ -73,3 +73,70 @@
 .javascript {
     width: 70%;
 }
+
+@media(max-width: 640px) {
+    .skills {
+        padding: 5% 5%;
+        background-color: #313741;
+        
+    }
+    .skill-div {
+        color: white;
+        display: block;  
+    }
+    .skill {
+        margin-bottom: 8%;
+        
+    }
+
+}
+
+@media(max-width: 768px) {
+    .skills {
+        padding: 5% 5%;
+        background-color: #313741;
+        
+    }
+    .skill-div {
+        color: white;
+        display: block;  
+    }
+    .skill {
+        margin-bottom: 8%;
+        
+    }
+  
+  
+  }
+
+  @media(max-width: 1024px) {
+    .skills {
+        padding: 5% 5%;
+        background-color: #313741;
+        
+    }
+    .skill-div {
+        color: white;
+        display: block;  
+    }
+    .skill {
+        margin-bottom: 8%;
+        
+    }
+  }
+
+  @media(max-width: 1280px) {
+    .skills {
+        padding: 5% 5%;
+        background-color: #313741;
+        
+    }
+    .skill-div {
+        color: white;
+        display: block;  
+    }
+    .skill {
+        margin-bottom: 8%;
+        
+    }
+  }
