@@ -1,132 +1,140 @@
-.card{
+.card {
     background-color: #22252C;
     padding: 10% 0%;
 }
 
-.all-cards{
+.all-cards {
     display: flex;
     justify-content: space-around;
-    
+
     margin: 0% 22%;
 }
 
-.div-1{
+.div-1 {
     background-color: #313741;
     height: 30%;
     width: 33.33%;
 }
 
-.div1-style{
+.div1-style {
     margin: 5% 4%;
 }
 
-.h-color{
-    color:#05C7AE;
+.h-color {
+    color: #05C7AE;
 }
 
-.div-2{
+.div-2 {
     background-color: #05C7AE;
     height: 35%;
     margin-top: -1%;
     width: 33.33%;
 }
 
-.color2{
-    color:#07463E;
+.color2 {
+    color: #07463E;
 }
 
-.div2-style{
+.div2-style {
     margin: 5% 4%;
 }
 
-.div-3{
+.div-3 {
     background-color: #313741;
     height: 30%;
     width: 33.33%;
 }
 
 
-.div3-style{
+.div3-style {
     margin: 5% 4%;
 }
 
-.space{
+.space {
     padding: 6% 5% 15% 5%;
 }
 
 @media(max-width: 640px) {
-    .all-cards{
+    .all-cards {
         display: block;
         margin: 0% 10%;
     }
-    .div-1{
+
+    .div-1 {
         background-color: #313741;
         height: 30%;
         width: 100%;
     }
 
-    .div-2{
+    .div-2 {
         background-color: #05C7AE;
         height: 35%;
         width: 100%;
     }
 
-    .div-3{
+    .div-3 {
         background-color: #313741;
         height: 30%;
         width: 100%;
     }
-  
-  }
-  
 
-  @media(max-width: 1024px) {
-    .all-cards{
+}
+
+
+@media(max-width: 1024px) {
+    .all-cards {
         display: block;
         margin: 0% 10%;
     }
-    .div-1{
+
+    .div-1 {
         background-color: #313741;
         height: 30%;
         width: 100%;
     }
 
-    .div-2{
+    .div-2 {
         background-color: #05C7AE;
         height: 35%;
         width: 100%;
     }
 
-    .div-3{
+    .div-3 {
         background-color: #313741;
         height: 30%;
         width: 100%;
     }
-    
-  }
-  
-  @media(max-width: 1280px) {
-    .all-cards{
+
+    .div-1 {
+        background-color: #313741;
+        display: flex;
+        /* Use flexbox layout */
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 1280px) {
+    .all-cards {
         display: block;
         margin: 0% 15%;
     }
-    .div-1{
+
+    .div-1 {
         background-color: #313741;
         height: 30%;
         width: 90%;
     }
 
-    .div-2{
+    .div-2 {
         background-color: #05C7AE;
         height: 35%;
         width: 90%;
     }
 
-    .div-3{
+    .div-3 {
         background-color: #313741;
         height: 30%;
         width: 90%;
     }
-  }
-  
-  
+}

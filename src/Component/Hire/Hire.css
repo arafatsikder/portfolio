@@ -1,24 +1,227 @@
-.hire{
+.hire {
     background-color: #02CFB4;
 }
 
-.spacea{
+.spacea {
     padding: 3% 21%;
 }
 
-.check{
-    color:#25292F;
+.hire-text {
+    display: flex;
+    justify-content: space-around;
 }
 
-.hire-btn{
+.hire-size {
+    font-size: 35px;
+    margin-top: -2%;
+}
+
+.hire-space {
+    padding-top: -2px;
+    padding-left: 5px;
+    
+}
+
+.check {
+    color: #25292F;
+    padding-right: 40px;
+}
+
+.hire-btn {
     background-color: #25292F;
-    color:  #02CFB4;
-    /* padding: 3% 15%; */
+    color: #02CFB4;
+    padding: 12px 56px;
 }
 
 
-.hire-btn:hover{
-    background-color:#02CFB4;
+.hire-btn:hover {
+    background-color: #02CFB4;
     color: #25292F;
     border: 1px solid #25292F;
 }
+
+.group {
+    display: flex;
+}
+
+@media(max-width: 640px) {
+    .hire-text {
+        display: block;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .spacea {
+        padding: 3% 2%;
+    }
+
+    .hire-size {
+        font-size: 22px;
+        margin-top: -2%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+
+    .check {
+        color: #25292F;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .hire-space {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 9%;
+    }
+
+
+    .group {
+        margin-bottom: 16px;
+    }
+
+    .hire-btn {
+        background-color: #25292F;
+        color: #02CFB4;
+        padding: 12px 56px;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    .hire-text {
+        display: block;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .spacea {
+        padding: 3% 2%;
+    }
+
+    .hire-size {
+        font-size: 22px;
+        margin-top: -2%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+
+    .check {
+        color: #25292F;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .hire-space {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 10%;
+    }
+
+
+    .group {
+        
+        margin-bottom: 16px;
+    }
+
+    .hire-btn {
+        background-color: #25292F;
+        color: #02CFB4;
+        padding: 12px 56px;
+    }
+
+
+
+}
+
+@media(max-width: 1024px) {
+    .hire-text {
+        display: block;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .spacea {
+        padding: 3% 10%;
+    }
+
+    .hire-size {
+        font-size: 22px;
+        margin-top: -2%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+
+    .check {
+        color: #25292F;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .hire-space {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 10%;
+    }
+
+
+    .group {
+        margin-bottom: 16px;
+    }
+
+    .hire-btn {
+        background-color: #25292F;
+        color: #02CFB4;
+        padding: 12px 56px;
+    }
+
+    
+  }
+
+@media(max-width: 1280px) {
+    .hire-text {
+        display: block;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .spacea {
+        padding: 3% 10%;
+    }
+
+    .hire-size {
+        font-size: 25px;
+        margin-top: -2%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+
+    .check {
+        color: #25292F;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .hire-space {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 10%;
+    }
+
+
+    .group {
+        margin-bottom: 16px;
+    }
+
+    .hire-btn {
+        background-color: #25292F;
+        color: #02CFB4;
+        padding: 12px 56px;
+    }
+
+    .group {
+        display: flex;
+        justify-content: space-around;
+    }
+
+  }

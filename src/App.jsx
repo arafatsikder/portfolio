@@ -5,6 +5,7 @@ import Skills from './../src/Component/Skills/Skills'
 import Hire from './Component/Hire/Hire'
 import Card from './Component/Card/Card'
 import Footer from './Component/Footer/Footer'
+import HireMe from './Component/HireMe/HireMe'
 // import Show from './Component/Show/Show'
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Card></Card>
+      {/* <HireMe></HireMe> */}
       {/* <MyWork></MyWork> */}
       <Hire></Hire>
       {/* <Show></Show> */}
